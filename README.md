@@ -6,7 +6,7 @@
 2.增加了在 WinForm,B/S,WPF 调用方式,现在,你只需要将它们复制到你的页面上即可.<br>
 ****
  A function to create Identicons in your web or winform.<br>
- With this function,you can create your identicons easily,i have be test it on WinForm,B/S or WPF.
+ With this function,you can create your identicons easily,i have be test it on WinForm,B/S or WPF.<br>
  Create in:VS2010+.NET4.0.<br>
  Date:2014-03-05<br>
  First,we can product a List<Dictionary<int,int>> ,if you like ,you can translate it to json data,then save in your SQL with the user's data.<br>
