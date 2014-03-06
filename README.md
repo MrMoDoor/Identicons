@@ -18,6 +18,6 @@
 首先,我们可以生成一个List<Dictionary<int,int>>数据类型,假如你喜欢,你还可以用本方法转为json字符串,和用户信息一起保存数据库中.<br>
 其次,当你需要调用该图像,你只需要从数据库中检索出来json,调用本方法即可生成.<br>
 
-**关于identicons,一种类似于Gravatar的小东西.**
+**关于identicons,一种类似于Gravatar的小东西.**<br>
 http://en.wikipedia.org/wiki/Identicon<br>
 https://github.com/blog/1586-identicons<br>
