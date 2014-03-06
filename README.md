@@ -1,9 +1,9 @@
 Identicons
 ==========
-¸üĞÂÊ±¼ä:2014-03-05
-¸üĞÂÄÚÈİ:
-1.ÖØĞÂ·â×°ÁË·½·¨;
-2.Ôö¼ÓÁËÔÚ WinForm,B/S,WPF µ÷ÓÃ·½Ê½,ÏÖÔÚ,ÄãÖ»ĞèÒª½«ËüÃÇ¸´ÖÆµ½ÄãµÄÒ³ÃæÉÏ¼´¿É.
+æ›´æ–°æ—¶é—´:2014-03-05
+æ›´æ–°å†…å®¹:
+1.é‡æ–°å°è£…äº†æ–¹æ³•;
+2.å¢åŠ äº†åœ¨ WinForm,B/S,WPF è°ƒç”¨æ–¹å¼,ç°åœ¨,ä½ åªéœ€è¦å°†å®ƒä»¬å¤åˆ¶åˆ°ä½ çš„é¡µé¢ä¸Šå³å¯.
 ==========
  A function to create Identicons in your web or winform.
  With this function,you can create your identicons easily,i have be test it on WinForm,B/S or WPF.
@@ -11,13 +11,13 @@ Identicons
  Date:2014-03-05
  First,we can product a List<Dictionary<int,int>> ,if you like ,you can translate it to json data,then save in your SQL with the user's data,
  Second,when you need it,you can check it out and take it into this function,then,you can create the identicons.
-Ò»¸ö´´½¨identiconsµÄ·½·¨,Äã¿ÉÒÔÔÚÄãµÄÍøÒ³»òÕß´°ÌåÎÄ¼şÉÏÊ¹ÓÃ±¾·½·¨.
-Ê¹ÓÃ±¾·½·¨,,Äã¿ÉÒÔºÜÈİÒ×µÄ´´½¨ÄãµÄidenticons,ÎÒÒÑ¾­ÔÚWinForm,B/S,WPF·Ö±ğÌí¼ÓÁËµ÷ÓÃ´úÂë.
-´´½¨Æ½Ì¨:VS2010+.NET4.0
-´´½¨Ê±¼ä:2014-03-05
-Ê×ÏÈ,ÎÒÃÇ¿ÉÒÔÉú³ÉÒ»¸öList<Dictionary<int,int>>Êı¾İÀàĞÍ,¼ÙÈçÄãÏ²»¶,Äã»¹¿ÉÒÔÓÃ±¾·½·¨×ªÎªjson×Ö·û´®,ºÍÓÃ»§ĞÅÏ¢Ò»Æğ±£´æÊı¾İ¿âÖĞ.
-Æä´Î,µ±ÄãĞèÒªµ÷ÓÃ¸ÃÍ¼Ïñ,ÄãÖ»ĞèÒª´ÓÊı¾İ¿âÖĞ¼ìË÷³öÀ´json,µ÷ÓÃ±¾·½·¨¼´¿ÉÉú³É.
+ä¸€ä¸ªåˆ›å»ºidenticonsçš„æ–¹æ³•,ä½ å¯ä»¥åœ¨ä½ çš„ç½‘é¡µæˆ–è€…çª—ä½“æ–‡ä»¶ä¸Šä½¿ç”¨æœ¬æ–¹æ³•.
+ä½¿ç”¨æœ¬æ–¹æ³•,,ä½ å¯ä»¥å¾ˆå®¹æ˜“çš„åˆ›å»ºä½ çš„identicons,æˆ‘å·²ç»åœ¨WinForm,B/S,WPFåˆ†åˆ«æ·»åŠ äº†è°ƒç”¨ä»£ç .
+åˆ›å»ºå¹³å°:VS2010+.NET4.0
+åˆ›å»ºæ—¶é—´:2014-03-05
+é¦–å…ˆ,æˆ‘ä»¬å¯ä»¥ç”Ÿæˆä¸€ä¸ªList<Dictionary<int,int>>æ•°æ®ç±»å‹,å‡å¦‚ä½ å–œæ¬¢,ä½ è¿˜å¯ä»¥ç”¨æœ¬æ–¹æ³•è½¬ä¸ºjsonå­—ç¬¦ä¸²,å’Œç”¨æˆ·ä¿¡æ¯ä¸€èµ·ä¿å­˜æ•°æ®åº“ä¸­.
+å…¶æ¬¡,å½“ä½ éœ€è¦è°ƒç”¨è¯¥å›¾åƒ,ä½ åªéœ€è¦ä»æ•°æ®åº“ä¸­æ£€ç´¢å‡ºæ¥json,è°ƒç”¨æœ¬æ–¹æ³•å³å¯ç”Ÿæˆ.
 
-¹ØÓÚidenticons,Ò»ÖÖÀàËÆÓÚGravatarµÄĞ¡¶«Î÷.
+å…³äºidenticons,ä¸€ç§ç±»ä¼¼äºGravatarçš„å°ä¸œè¥¿.
 http://en.wikipedia.org/wiki/Identicon
 https://github.com/blog/1586-identicons
