@@ -8,6 +8,7 @@ namespace IdenticonsDll
 {
     public class IdIcon
     {
+        #region 生成num个不同的坐标点
         /// <summary>
         /// 生成num个不同的坐标点
         /// </summary>
@@ -61,6 +62,9 @@ namespace IdenticonsDll
 
         }
 
+        #endregion
+
+        #region 将生成的lst转换为json(以便保存)
         /// <summary>
         /// 将生成的lst转换为json(以便保存)
         /// </summary>
@@ -76,11 +80,35 @@ namespace IdenticonsDll
                     json = json + "{" + item.Key.ToString() + "," + item.Value.ToString() + "}|";
                 }
             }
-            json = json.Replace("}|", "#").Replace("}", "");
+            json = json.Replace("}|{", "|").Replace("{", "").Replace("}|", "");
             return json;
         }
+        #endregion
 
+        #region 将lst转换的json转回lst以供绘制图像
+        /// <summary>
+        /// 将lst转换的json转回lst以供绘制图像
+        /// </summary>
+        /// <param name="json"></param>
+        /// <returns></returns>
+        public List<Dictionary<int, int>> JsonTlst(string json)
+        { 
+            //#字json
+            string[] jsonStr= json.Split(Convert.ToChar("|"));
+            List<Dictionary<int, int>> lst = new List<Dictionary<int, int>>();
+            for (int i = 0; i < jsonStr.Length; i++)
+            {
+                string jsonNew = jsonStr[i];
+                string[] jsonNewStr = jsonNew.Split(Convert.ToChar(","));
+                Dictionary<int, int> dic = new Dictionary<int, int>();
+                dic.Add(Convert.ToInt32(jsonNewStr[0]),Convert.ToInt32(jsonNewStr[1]));
+                lst.Add(dic);
+            }
+            return lst;
+        }
+        #endregion
 
+        #region 绘制图像(Color)
         /// <summary>
         /// 绘制图像
         /// </summary>
@@ -138,6 +166,9 @@ namespace IdenticonsDll
             return img;
         }
 
+        #endregion
+
+        #region 绘制图像(RGB)
         /// <summary>
         /// 绘制图像
         /// </summary>
@@ -198,8 +229,10 @@ namespace IdenticonsDll
             }
             return img;
         }
-   
 
+        #endregion
+
+        #region 绘制图像(#)
         /// <summary>
         /// 绘制图像
         /// </summary>
@@ -256,7 +289,8 @@ namespace IdenticonsDll
             }
             return img;
         }
-   
-    
+
+        #endregion
+
     }
 }
